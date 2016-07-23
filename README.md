@@ -27,4 +27,7 @@ Usage
 exec-jar hello.jar # Output file: hello
 ```
 
+License
+--------
 
+0BSD
