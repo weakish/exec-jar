@@ -5,7 +5,7 @@ This works because
 `java combined.jar` will ignore the startup script at the beginning.
 
 Install
-=======
+--------
 
 ### With basher
 
@@ -21,7 +21,7 @@ Copy `exec-jar` and `preceed-jar.sh` to `PATH`:
 - Do not rename `preceed-jar.sh` to `preceed-jar`.
 
 Usage
-=====
+------
 
 ```sh
 exec-jar hello.jar # Output file: hello
