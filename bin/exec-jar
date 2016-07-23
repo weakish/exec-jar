@@ -1,7 +1,9 @@
 #!/bin/sh
 
 originalJar="$1"
+# `preceed-jar.sh` is under the same directory.
 preceedScript="$(dirname $(readlink -f $0))"/preceed-jar.sh
 executableJar=$(basename "$originalJar" .jar)
+
 cat "$preceedScript" "$originalJar" > "$executableJar"
 chmod a+x "$executableJar"

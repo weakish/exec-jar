@@ -13,17 +13,12 @@ Install
 ; basher install weakish/gister
 ```
 
-Require [basher][] version: `>=39875bc`.
-
-[basher]: https://github.com/basherpm/basher
-
 ### Manually
 
-Copy `exec-jar.sh` and `preceed-jar.sh` to `PATH`:
+Copy `exec-jar` and `preceed-jar.sh` to `PATH`:
 
 - Both must be in the same directory.
 - Do not rename `preceed-jar.sh` to `preceed-jar`.
-- Optionally rename `exec-jar.sh` to `exec-jar`.
 
 Usage
 =====
