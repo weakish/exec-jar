@@ -7,6 +7,17 @@ This works because
 Install
 --------
 
+### With `make`
+
+```sh
+; make
+```
+
+Files will be installed to `/usr/local/bin`.
+If you want to install other place, edit `config.mk` before running `make`.
+
+Makefile is compatible with both GNU make and BSD make.
+
 ### With basher
 
 ```sh
